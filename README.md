@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [CSSComb](https://github.com/morishitter/fly-csscomb) plugin for _[Fly][fly]_.
+> [CSSComb](https://github.com/csscomb/csscomb.js) plugin for _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -13,7 +13,7 @@
 [![][mit-badge]][mit]
 
 ## Usage
-> Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
+> Check out the [documentation](https://github.com/csscomb/csscomb.js/blob/master/doc/usage-node.md) to see the available options.
 
 ### Install
 
@@ -25,7 +25,10 @@ npm install -D fly-csscomb
 
 ```js
 export default function* () {
-  yield ...
+  yield this
+    .source('src/*.css')
+    .csscomb()
+    .target('dist')
 }
 ```
 
