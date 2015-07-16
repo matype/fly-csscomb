@@ -6,8 +6,10 @@
 
 ## Changelog
 
- * 0.0.0
-
 ### v0.0.0
 
  * fly-csscomb initial commit.
+
+### v0.1.0
+
+ * Initial release.
