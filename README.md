@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [Csscomb](https://github.com/morishitter/fly-csscomb) plugin for _[Fly][fly]_.
+> [CSSComb](https://github.com/morishitter/fly-csscomb) plugin for _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
