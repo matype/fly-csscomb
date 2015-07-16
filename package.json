@@ -8,7 +8,7 @@
   "files": [
     "index.js"
   ],
-  "keywords":[
+  "keywords": [
     "fly",
     "csscomb"
   ],
@@ -26,7 +26,7 @@
     "url": "http://github.com/morishitter"
   },
   "dependencies": {
-
+    "csscomb": "^3.1.8"
   },
   "devDependencies": {
     "eslint": "^0.21.2",
